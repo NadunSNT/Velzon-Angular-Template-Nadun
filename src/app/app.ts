@@ -11,7 +11,7 @@ import { handleLayout, toggleFullScreen, toggleTheme,
   styleUrl: './app.css'
 })
 export class App implements OnInit, AfterViewInit {
-  protected readonly title = signal('vehicle-valuation-client');
+  protected readonly title = signal('Velzon - Angular Admin & Dashboard Template - Nadun');
 
   // List of all HTML data attributes you want to persist
   htmlDataAttrs = [
